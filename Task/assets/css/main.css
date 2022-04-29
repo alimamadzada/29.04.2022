@@ -1,0 +1,61 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.title-content {
+  width: 100%;
+  height: 100vh;
+  background-image: url(https://startbootstrap.github.io/startbootstrap-stylish-portfolio/assets/img/bg-masthead.jpg);
+  background-size: cover;
+  padding-top: 40vh;
+  background-attachment: fixed;
+}
+.container {
+  text-align: center;
+}
+.title {
+  margin-bottom: 10px;
+}
+.subtitle {
+  margin-bottom: 10px;
+}
+.headerbutton {
+  width: 155px;
+  height: 45px;
+  background-color: #1d809f;
+  border: 2px solid #1d809f;
+  border-radius: 3px;
+  color: white;
+  transition: 2s;
+
+}
+.scd-content {
+  background-color: white;
+  height: 45vh;
+  text-align: center;
+  padding-top: 15vh;
+}
+.scd-container-button {
+  width: 155px;
+  height: 65px;
+  background-color: black;
+  border: 2px solid black;
+  border-radius: 3px;
+  color: white;
+  margin-bottom: 10vh;
+  margin-top: 5px;
+
+}
+
+.scd-content-two {
+  background-color: rgb(42, 206, 218);
+  height: 64.5vh;
+}
+.bi {
+  width: 600px;
+}
+.headerbutton:hover {
+    transition: 2s;
+  background-color: #074457;
+}
